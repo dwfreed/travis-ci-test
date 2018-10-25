@@ -1,0 +1,13 @@
+sudo: required
+dist: trusty
+language:
+        - cpp
+        - python
+compiler:
+        - gcc
+        - clang
+script:
+        - env
+        - pyenv versions
+        - python2 --version
+        - python3 --version
