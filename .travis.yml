@@ -1,8 +1,6 @@
 sudo: required
 dist: trusty
-language:
-        - cpp
-        - python
+language: cpp
 compiler:
         - gcc
         - clang
