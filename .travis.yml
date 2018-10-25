@@ -7,5 +7,6 @@ compiler:
 before_script:
         - pyenv global 2.7
 script:
-        - pyenv which virtualenv
+        - which virtualenv
         - virtualenv --version
+        - virtualenv --help
