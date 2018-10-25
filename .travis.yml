@@ -1,11 +1,11 @@
 sudo: required
 dist: trusty
-language: python
+language: cpp
 compiler:
         - gcc
         - clang
+before_script:
+        - pyenv global 2.7
 script:
-        - env
         - pyenv versions
         - python2 --version
-        - python3 --version
